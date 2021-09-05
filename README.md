@@ -2,11 +2,15 @@
 Python scripts for performing stereo depth estimation using the [HITNET Tensorflow model from Google Research](https://github.com/google-research/google-research/tree/master/hitnet).
 
 ![Hitnet stereo depth estimation](https://github.com/ibaiGorordo/HITNET-Stereo-Depth-estimation/blob/main/doc/img/out.jpg)
+*Stereo depth estimation on the cones images from the Middlebury dataset (https://vision.middlebury.edu/stereo/data/scenes2003/)*
 
 # Requirements
 
  * **OpenCV**, **numpy** and **tensorflo**. **pafy** and **youtube-dl** are required for youtube video inference. 
  * For the drivingStereo dataset, download the data from: https://drivingstereo-dataset.github.io/
+
+# Tensorflow models
+Download the tensorflow models from the [original repository](https://github.com/google-research/google-research/tree/master/hitnet) and save them into the **[models](https://github.com/ibaiGorordo/HITNET-Stereo-Depth-estimation/tree/main/models)** folder. 
 
 # Examples
 
