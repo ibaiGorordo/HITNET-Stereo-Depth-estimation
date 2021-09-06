@@ -38,3 +38,4 @@ Download the tensorflow models from the [original repository](https://github.com
 # References:
 * Hitnet model: https://github.com/google-research/google-research/tree/master/hitnet
 * DrivingStereo dataset: https://drivingstereo-dataset.github.io/
+* Original paper: https://arxiv.org/abs/2007.12140
