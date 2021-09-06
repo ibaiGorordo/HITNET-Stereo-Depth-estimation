@@ -2,6 +2,7 @@ from enum import Enum
 import tensorflow as tf
 import numpy as np
 import cv2
+import urllib
 from dataclasses import dataclass
 
 class ModelType(Enum):

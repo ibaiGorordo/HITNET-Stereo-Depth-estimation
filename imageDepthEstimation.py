@@ -1,7 +1,6 @@
 import cv2
 import tensorflow as tf
 import numpy as np
-import urllib
 
 from hitnet import HitNet, ModelType, draw_disparity, draw_depth, CameraConfig, load_img
 
