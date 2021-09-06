@@ -3,12 +3,7 @@ import tensorflow as tf
 import numpy as np
 import urllib
 
-from hitnet import HitNet, ModelType, draw_disparity, draw_depth, CameraConfig
-
-def load_img(url):
-	req = urllib.request.urlopen(url)
-	arr = np.asarray(bytearray(req.read()), dtype=np.uint8)
-	return cv2.imdecode(arr, -1) # 'Load it as it is'
+from hitnet import HitNet, ModelType, draw_disparity, draw_depth, CameraConfig, load_img
 
 # Select model type
 # model_type = ModelType.middlebury

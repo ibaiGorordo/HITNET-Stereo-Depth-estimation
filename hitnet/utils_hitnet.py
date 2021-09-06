@@ -37,4 +37,9 @@ def draw_depth(depth_map, max_dist):
 
 	return cv2.applyColorMap(cv2.convertScaleAbs(norm_depth_map,1), cv2.COLORMAP_MAGMA)
 
+def load_img(url):
+	req = urllib.request.urlopen(url)
+	arr = np.asarray(bytearray(req.read()), dtype=np.uint8)
+	return cv2.imdecode(arr, -1) # 'Load it as it is'
+
 
