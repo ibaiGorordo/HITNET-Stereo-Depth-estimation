@@ -1,0 +1,4 @@
+tensorflow>=2.6
+opencv-python
+numpy
+imread-from-url
