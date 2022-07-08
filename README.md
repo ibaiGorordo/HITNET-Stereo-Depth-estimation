@@ -6,7 +6,7 @@ Python scripts for performing stereo depth estimation using the [HITNET Tensorfl
 
 # Requirements
 
- * **OpenCV**, **numpy** and **tensorflo**. **pafy** (pip install git+https://github.com/zizo-pro/pafy@b8976f22c19e4ab5515cacbfae0a3970370c102b) and **youtube-dl** are required for youtube video inference. 
+ * **OpenCV**, **numpy** and **tensorflo**. **pafy** (`pip install git+https://github.com/zizo-pro/pafy@b8976f22c19e4ab5515cacbfae0a3970370c102b`) and **youtube-dl** are required for youtube video inference. 
  * For the drivingStereo dataset, download the data from: https://drivingstereo-dataset.github.io/
 
 # Tensorflow models
